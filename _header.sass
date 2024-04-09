@@ -1,0 +1,34 @@
+header
+    header
+    background: rgba(0, 0, 0, 0.35)
+    opacity: 0.7
+    position: fixed
+    padding: 10px 0
+    right: 0
+    left: 0
+    z-index: 1
+    .imgbox
+        img
+            width: 60px
+            cursor: pointer
+            border-radius: 50px
+            
+    .btn
+        display: none
+        i,h3
+            color: #ff0000
+    nav
+        a
+            font-size: 20px
+            font-weight: 500
+            margin: 10px
+            cursor: pointer
+            &:hover
+                color: #ff0000
+        .home-color
+            color: #ff0000
+    @media screen and ( max-width: 992px )
+        nav
+            display: none
+        .btn
+            display: flex

@@ -1,0 +1,53 @@
+#success
+    background-color: #cb3030
+    h1
+        font-size: 50px
+        color: #ffff
+    .box
+        display: flex
+        margin: 30px 0
+        padding: 8px 97px
+        .textbox
+            text-align: end
+            padding: 8px 16px
+            width: 400px
+            margin: 0 30px
+            h2
+                font-weight: 700
+                font-size: 30px
+                margin: 8px 0 12px
+                color: #ffff
+            p
+                font-size: 19px
+                line-height: 1.5
+                color: #ffff
+        .imgbox
+            width: 180px
+            height: 180px
+            border-radius: 50%
+            border: 7px solid #e9ecef
+    .right
+        .textbox
+            text-align: start
+    @media screen and ( max-width: 992px )
+        .box
+            padding: 0 50px 0
+            .textbox
+                width: 220px
+            .imgbox
+                width: 120px
+                height: 120px
+    @media screen and ( max-width: 768px )
+        .box
+            padding: 8px
+            align-items: flex-start
+            flex-direction: row-reverse
+            .textbox
+                width: 400px
+                text-align: start
+            .imgbox
+                width: 180px
+                height: auto
+                margin: 0 18px 0 0
+        .right
+            flex-direction: row
